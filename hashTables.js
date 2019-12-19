@@ -148,7 +148,6 @@ firstRecurringCharacter([2,5,5,2,3,5,1,2,4]) // Returns 2 as the first reccuring
                                              //because the outer loop has 2 in [0] 
                                              // and it will find 2 again in [3] before it compares 5 with 5
 
-
 // Better approach time complexity wise
 function firstRecurringCharacter2(input) {
     let map = new Map();
@@ -169,4 +168,3 @@ function firstRecurringCharacter2(input) {
 
 firstRecurringCharacter2([2, 5, 1, 2, 3, 5, 1, 2, 4])
 firstRecurringCharacter2([2,5,5,2,3,5,1,2,4]) // Returns 5
-
